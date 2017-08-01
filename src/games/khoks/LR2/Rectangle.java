@@ -137,7 +137,8 @@ public class Rectangle {
 		MOVEMENT = doNotCross(jFrame, keyCode);
 		if(MOVEMENT > 0) {
 			if(keyCode == KeyEvent.VK_LEFT) {
-				g.clearRect(this.getX() + this.getWidth() - MOVEMENT, this.getY(), MOVEMENT, this.getHeight());
+				//jFrame.gr 
+				//g.clearRect(this.getX() + this.getWidth() - MOVEMENT, this.getY(), MOVEMENT, this.getHeight());
 				g.setColor(this.color);
 				//g.drawLine(this.getX() - MOVEMENT, this.getY(), this.getX() - MOVEMENT, this.getY() + this.getHeight() - 1);
 				g.fillRect(this.getX() - MOVEMENT, this.getY(), this.getWidth(), this.getHeight());
